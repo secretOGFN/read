@@ -30,8 +30,8 @@ jobs:
       
       - name: Configure runneradmin for RDP
         run: |
-          $username = "runneradmin"
-          $password = "P@ssw0rd123!"  # ⚠️ Change this or use a GitHub secret
+          $username = "skyeVPS123"
+          $password = "ProjectSkyeIsBest"  # ⚠️ Change this or use a GitHub secret
 
           # Enable account (in case it’s disabled)
           Enable-LocalUser -Name $username
